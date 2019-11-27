@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#333, black);
+}
+
+.banner {
+    position: relative;
+    background-image: url("./img/bgr.jpg");
+    width: 1300px;
+    height: 663px;
+}
+
+#bil {
+    position: absolute;
+    left: 300px;
+    bottom: 170px;
+    background-image: url("./img/red-car.png");
+    width: 735px;
+    height: 255px;
+
+
+}
+
+.hjul {
+    position: absolute;
+}
+
+#bakhjul {
+    bottom: 81px;
+    left: 160px;
+    display: none;
+}
+
+#forhjul {
+    bottom: 81px;
+    left: 545px;
+    display: none;
+}
